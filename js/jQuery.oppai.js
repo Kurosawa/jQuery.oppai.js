@@ -11,7 +11,7 @@
 
 		this.each(function()
 		{
-			jQuery(this).html(jQuery(this).html().replace(/。/g, setting.text + "。"));
+			$(this).html($(this).html().replace(/。/g, setting.text + "。"));
 		});
 		return (this);
 	};
