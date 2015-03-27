@@ -1,0 +1,38 @@
+@import "compass/reset";
+
+// Import Bootstrap Compass integration
+@import "bootstrap-compass";
+
+// Import custom Bootstrap variables
+@import "bootstrap-variables";
+
+// Import Bootstrap for Sass
+@import "bootstrap";
+
+
+$w:960px;
+
+#header {
+	width:$w;
+	margin: 0 auto;
+}
+#ui {
+	width:$w;
+	margin: 20px auto;
+}
+
+#container {
+	width: $w;
+	margin: 0 auto;
+	p {
+		line-height:1.7em;
+		padding-bottom:10px;
+	}
+}
+
+#copy {
+	p {
+		text-align:center;
+		font-family:Alial,'Lucida Grande';
+	}
+}
